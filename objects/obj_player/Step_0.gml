@@ -11,23 +11,23 @@ var move = key_right - key_left;
 
 if (key_dash) {
 	horizontalSpeed = move * walkSpeed * 2;
-	integrity -= 0.1;
-	show_debug_message(string(integrity));
-	if (integrity <= 100 && integrity > 90 && sprite_index != spr_player_100) {
+	hp -= 0.1;
+	show_debug_message(string(hp));
+	if (hp <= 100 && hp > 90 && sprite_index != spr_player_100) {
 		sprite_index = spr_player_100;
-	} else if (integrity <= 90 && integrity > 75 && sprite_index != spr_player_90) {
+	} else if (hp <= 90 && hp > 75 && sprite_index != spr_player_90) {
 		sprite_index = spr_player_90;
-	} else if (integrity <= 75 && integrity > 60 && sprite_index != spr_player_75) {
+	} else if (hp <= 75 && hp > 60 && sprite_index != spr_player_75) {
 		sprite_index = spr_player_75;
-	} else if (integrity <= 60 && integrity > 50 && sprite_index != spr_player_60) {
+	} else if (hp <= 60 && hp > 50 && sprite_index != spr_player_60) {
 		sprite_index = spr_player_60;
-	} else if (integrity <= 60 && integrity > 35 && sprite_index != spr_player_50) {
+	} else if (hp <= 60 && hp > 35 && sprite_index != spr_player_50) {
 		sprite_index = spr_player_50;
-	} else if (integrity <= 35 && integrity > 15 && sprite_index != spr_player_35) {
+	} else if (hp <= 35 && hp > 15 && sprite_index != spr_player_35) {
 		sprite_index = spr_player_35;
-	} else if (integrity <= 15 && integrity > 5 && sprite_index != spr_player_15) {
+	} else if (hp <= 15 && hp > 5 && sprite_index != spr_player_15) {
 		sprite_index = spr_player_15;
-	} else if (integrity <= 5 && sprite_index != spr_player_5) {
+	} else if (hp <= 5 && sprite_index != spr_player_5) {
 		sprite_index = spr_player_5;
 	}
 } else {

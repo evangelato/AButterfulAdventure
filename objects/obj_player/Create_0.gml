@@ -4,7 +4,7 @@ horizontalSpeed = 0;
 verticalSpeed = 0;
 grav = 0.3;
 walkSpeed = 4;
-integrity = 100;
+hp = 100;
 
 
 
