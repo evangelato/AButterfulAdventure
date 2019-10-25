@@ -51,7 +51,7 @@ if (oldhealth != health) {
 		sprite_index = spr_player_75;
 	} else if (health <= 60 && health > 50 && sprite_index != spr_player_60) {
 		sprite_index = spr_player_60;
-	} else if (health <= 60 && health > 35 && sprite_index != spr_player_50) {
+	} else if (health <= 50 && health > 35 && sprite_index != spr_player_50) {
 		sprite_index = spr_player_50;
 	} else if (health <= 35 && health > 15 && sprite_index != spr_player_35) {
 		sprite_index = spr_player_35;
