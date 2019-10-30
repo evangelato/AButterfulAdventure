@@ -18,13 +18,13 @@ if (key_dash) {
 
 verticalSpeed = verticalSpeed + grav;
 
-if (place_meeting(x, y + 1, obj_wall) && key_jump) {
+if (place_meeting(x, y + 1, obj_solid) && key_jump) {
 	verticalSpeed = -7;
 }
 
 // Horizontal Collision
-if (place_meeting(x + horizontalSpeed, y , obj_wall)) {
-	while (!place_meeting(x+sign(horizontalSpeed), y, obj_wall)) {
+if (place_meeting(x + horizontalSpeed, y , obj_solid)) {
+	while (!place_meeting(x+sign(horizontalSpeed), y, obj_solid)) {
 		x = x + sign(horizontalSpeed)
 	}
 	horizontalSpeed = 0;
@@ -32,8 +32,8 @@ if (place_meeting(x + horizontalSpeed, y , obj_wall)) {
 x = x + horizontalSpeed;
 
 // Vertical Collision
-if (place_meeting(x, y + verticalSpeed, obj_wall)) {
-	while (!place_meeting(x, y + sign(verticalSpeed), obj_wall)) {
+if (place_meeting(x, y + verticalSpeed, obj_solid)) {
+	while (!place_meeting(x, y + sign(verticalSpeed), obj_solid)) {
 		y = y + sign(verticalSpeed)
 	}
 	verticalSpeed = 0;

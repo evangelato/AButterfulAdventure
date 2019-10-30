@@ -1,10 +1,19 @@
 {
-    "id": "5365ff3f-0128-4043-8c93-54c9c14daa69",
+    "id": "4a1f6243-ada5-4198-ad29-85a9c187c4d0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall",
+    "name": "obj_stove",
     "eventList": [
-        
+        {
+            "id": "edc9568d-494b-462c-a968-fa1984de3455",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4a1f6243-ada5-4198-ad29-85a9c187c4d0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5d001231-9afd-4390-98e9-a0563e03d432",
+    "spriteId": "730d5cd9-665c-49d2-b3d8-dca712e7d7c3",
     "visible": true
 }
