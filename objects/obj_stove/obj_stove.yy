@@ -5,7 +5,7 @@
     "name": "obj_stove",
     "eventList": [
         {
-            "id": "edc9568d-494b-462c-a968-fa1984de3455",
+            "id": "4d47896e-feec-4dca-a1ce-e721ab5e489a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

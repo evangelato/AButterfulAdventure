@@ -40,6 +40,7 @@ if (place_meeting(x, y + verticalSpeed, obj_solid)) {
 }
 y = y + verticalSpeed;
 
+
 // Animation
 if (oldhealth != health) {
 	if (health <= 100 && health > 90 && sprite_index != spr_player_100) {
@@ -60,4 +61,3 @@ if (oldhealth != health) {
 		sprite_index = spr_player_5;
 	}
 }
-
