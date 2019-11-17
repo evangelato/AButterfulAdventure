@@ -135,10 +135,26 @@
             }
         },
         {
+            "Key": "658581b5-bfed-404a-9b5b-739e783e6867",
+            "Value": {
+                "id": "ed0d6c62-242a-495a-a9e1-c49f49dac1c9",
+                "resourcePath": "objects\/obj_fork\/obj_fork.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "688d3aea-5f50-4af5-b76e-078037723761",
             "Value": {
                 "id": "548b2e2d-2a31-44a0-9cca-1a102d0757c4",
                 "resourcePath": "sprites\/spr_player_5\/spr_player_5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b2cb04e-1833-4747-b98c-26eeef650275",
+            "Value": {
+                "id": "91a662df-e51a-4700-9e93-ae0b0a0fa5db",
+                "resourcePath": "sprites\/spr_fork\/spr_fork.yy",
                 "resourceType": "GMSprite"
             }
         },
