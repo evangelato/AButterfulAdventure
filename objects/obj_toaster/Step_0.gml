@@ -4,7 +4,7 @@
 if (place_meeting(x, y , obj_player)) {
 	sprite_index = spr_toaster_up;
 	instance_deactivate_object(obj_player);
-	obj_butter_toast.verticalSpeed = 4;
+	obj_butter_toast.verticalSpeed = 7;
 }
 
 
