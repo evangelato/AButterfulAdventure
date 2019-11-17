@@ -6,39 +6,42 @@ key_jump = keyboard_check_pressed(vk_space);
 key_dash = keyboard_check(vk_shift);
 oldhealth = health;
 
-// Calculate Movement
-var move = key_right - key_left;
 
-if (key_dash) {
-	horizontalSpeed = move * walkSpeed * 2;
-	health -= 0.1;
-} else {
-	horizontalSpeed = move * walkSpeed;
-}
+if (!disabled) {
+	// Calculate Movement
+	var move = key_right - key_left;
 
-verticalSpeed = verticalSpeed + grav;
-
-if (place_meeting(x, y + 1, obj_solid) && key_jump) {
-	verticalSpeed = -7;
-}
-
-// Horizontal Collision
-if (place_meeting(x + horizontalSpeed, y , obj_solid)) {
-	while (!place_meeting(x+sign(horizontalSpeed), y, obj_solid)) {
-		x = x + sign(horizontalSpeed)
+	if (key_dash) {
+		horizontalSpeed = move * walkSpeed * 2;
+		health -= 0.1;
+	} else {
+		horizontalSpeed = move * walkSpeed;
 	}
-	horizontalSpeed = 0;
-}
-x = x + horizontalSpeed;
 
-// Vertical Collision
-if (place_meeting(x, y + verticalSpeed, obj_solid)) {
-	while (!place_meeting(x, y + sign(verticalSpeed), obj_solid)) {
-		y = y + sign(verticalSpeed)
+	verticalSpeed = verticalSpeed + grav;
+
+	if (place_meeting(x, y + 1, obj_solid) && key_jump) {
+		verticalSpeed = -7;
 	}
-	verticalSpeed = 0;
+
+	// Horizontal Collision
+	if (place_meeting(x + horizontalSpeed, y , obj_solid)) {
+		while (!place_meeting(x+sign(horizontalSpeed), y, obj_solid)) {
+			x = x + sign(horizontalSpeed)
+		}
+		horizontalSpeed = 0;
+	}
+	x = x + horizontalSpeed;
+
+	// Vertical Collision
+	if (place_meeting(x, y + verticalSpeed, obj_solid)) {
+		while (!place_meeting(x, y + sign(verticalSpeed), obj_solid)) {
+			y = y + sign(verticalSpeed)
+		}
+		verticalSpeed = 0;
+	}
+	y = y + verticalSpeed;
 }
-y = y + verticalSpeed;
 
 
 // Animation
