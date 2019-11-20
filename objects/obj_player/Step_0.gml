@@ -64,3 +64,12 @@ if (oldhealth != health) {
 		sprite_index = spr_player_5;
 	}
 }
+
+// Respawn when dead
+if (health <= 0) {
+	health = 100;
+	sprite_index = spr_player_100;
+	x = global.room_start_x;
+	y = global.room_start_y;
+	room_restart();
+}
