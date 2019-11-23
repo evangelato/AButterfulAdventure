@@ -6,6 +6,8 @@ grav = 0.3;
 walkSpeed = 4;
 disabled = false;
 health = 100;
+momentum = 0;
+fric = 0.2
 
 
 

@@ -10,12 +10,28 @@ oldhealth = health;
 if (!disabled) {
 	// Calculate Movement
 	var move = key_right - key_left;
+	
+	horizontalSpeed =  (move * walkSpeed) + momentum;
 
 	if (key_dash) {
-		horizontalSpeed = move * walkSpeed * 2;
+		if (move > 0) {
+			momentum += .5;
+			momentum = clamp (momentum,0,20);
+		}
+
+		else if (move < 0) {
+			momentum -= .5;
+			momentum = clamp (momentum,-20,0);
+		}
 		health -= 0.1;
 	} else {
-		horizontalSpeed = move * walkSpeed;
+		if (sign(horizontalSpeed)) && (move = 0) {
+			momentum -= fric;
+			momentum = clamp (momentum,0,20);
+		} else if (!sign(horizontalSpeed)) && (move = 0){
+			momentum += fric;
+			momentum = clamp (momentum,-20,0);
+		}
 	}
 
 	verticalSpeed = verticalSpeed + grav;
