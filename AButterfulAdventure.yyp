@@ -74,7 +74,7 @@
             "Key": "2b809f8d-6c7b-4475-84c9-2a8fce736d3b",
             "Value": {
                 "id": "9b074d73-6958-4d22-8836-b8439f91719d",
-                "resourcePath": "objects\/obj_floor\/obj_floor.yy",
+                "resourcePath": "objects\/obj_sewage_floor\/obj_sewage_floor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -92,6 +92,14 @@
                 "id": "22b1ad68-3d34-436c-982b-ee09025f7bbd",
                 "resourcePath": "sprites\/spr_sewer_wall_l_butter\/spr_sewer_wall_l_butter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "301cb57f-e278-4a3c-b25f-730a6fd35874",
+            "Value": {
+                "id": "c83146d8-1197-40fc-9ea9-017f164ae334",
+                "resourcePath": "objects\/obj_floor\/obj_floor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +300,14 @@
                 "id": "9ad432d7-34b4-41f4-816a-5752c6aae675",
                 "resourcePath": "objects\/obj_warp\/obj_warp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "89ea9422-dfe6-4cf8-a3ed-3b764bb1c2ee",
+            "Value": {
+                "id": "5233c014-c65b-4acd-9c45-84ad05f9de06",
+                "resourcePath": "views\/89ea9422-dfe6-4cf8-a3ed-3b764bb1c2ee.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
