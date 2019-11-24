@@ -3,11 +3,11 @@
 horizontalSpeed = 0;
 verticalSpeed = 0;
 grav = 0.3;
-walkSpeed = 4;
+walkSpeed = 3;
 disabled = false;
 health = 100;
 momentum = 0;
-fric = 0.2
+fric = 1;
 
 
 

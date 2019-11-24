@@ -9,29 +9,39 @@ oldhealth = health;
 
 if (!disabled) {
 	// Calculate Movement
+	if (key_dash) {
+		health -= 0.1;
+	}
+	
 	var move = key_right - key_left;
 	
 	horizontalSpeed =  (move * walkSpeed) + momentum;
+	
+	if (place_meeting(x, y + 1, obj_floor)) {
+		var collidedFloor = instance_place(x, y + 1, obj_floor);
+		if (collidedFloor.hasButter) {
+			fric = 0;
+		} else {
+			fric = 4;
+		}
+	}
 
-	if (key_dash) {
-		if (move > 0) {
-			momentum += .5;
-			momentum = clamp (momentum,0,20);
-		}
+	if (move > 0) {
+		momentum += 0.5;
+		momentum = clamp (momentum,0,10);
+	}
 
-		else if (move < 0) {
-			momentum -= .5;
-			momentum = clamp (momentum,-20,0);
-		}
-		health -= 0.1;
-	} else {
-		if (sign(horizontalSpeed)) && (move = 0) {
-			momentum -= fric;
-			momentum = clamp (momentum,0,20);
-		} else if (!sign(horizontalSpeed)) && (move = 0){
-			momentum += fric;
-			momentum = clamp (momentum,-20,0);
-		}
+	else if (move < 0) {
+		momentum -= 0.5;
+		momentum = clamp (momentum,-10,0);
+	}
+	
+	if (sign(horizontalSpeed)) && (move = 0) {
+		momentum -= fric;
+		momentum = clamp (momentum,0,10);
+	} else if (!sign(horizontalSpeed)) && (move = 0){
+		momentum += fric;
+		momentum = clamp (momentum,-10,0);
 	}
 
 	verticalSpeed = verticalSpeed + grav;
