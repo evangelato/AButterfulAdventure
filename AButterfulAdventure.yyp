@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "301cb57f-e278-4a3c-b25f-730a6fd35874",
-            "Value": {
-                "id": "c83146d8-1197-40fc-9ea9-017f164ae334",
-                "resourcePath": "objects\/obj_floor\/obj_floor.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "30469b7b-c04a-4350-8f51-6426e9194500",
             "Value": {
                 "id": "f37087db-7724-442e-9922-b9c48b4b1261",
@@ -188,6 +180,14 @@
                 "id": "00e4bf89-fe9d-4410-996c-a25aa545edcf",
                 "resourcePath": "sprites\/spr_sewer_wall_tr\/spr_sewer_wall_tr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5952887c-1c7e-4629-b565-8080a83fec30",
+            "Value": {
+                "id": "27621705-e354-451f-af77-a6d0cd717e3f",
+                "resourcePath": "objects\/obj_floor\/obj_floor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "a8d6e0a3-a80f-465c-a144-855e25c672d8",
+            "Value": {
+                "id": "68feaa3a-bf04-4e66-b40f-a8060e391e69",
+                "resourcePath": "objects\/obj_sewage_wall_left\/obj_sewage_wall_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "553f4046-d8e1-4509-a400-744f19568bc7",
@@ -420,6 +428,14 @@
                 "id": "030c9a1a-fcce-40f8-84eb-fa324ec5b696",
                 "resourcePath": "sprites\/spr_sewer_wall_tl\/spr_sewer_wall_tl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c45af67f-3758-4b8a-a73a-01a2b54e2883",
+            "Value": {
+                "id": "3a59546b-6603-4497-8480-272a224c2d6b",
+                "resourcePath": "objects\/obj_sewage_wall_right\/obj_sewage_wall_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
