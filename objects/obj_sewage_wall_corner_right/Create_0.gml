@@ -4,6 +4,5 @@
 // Inherit the parent event
 event_inherited();
 xDiff = 1;
-yDiff = 0;
-changeSpriteTo = spr_sewer_wall_r_butter;
-
+yDiff = -1;
+changeSpriteTo = spr_sewer_wall_tr_butter;

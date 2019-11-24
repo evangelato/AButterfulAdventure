@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "46dc934c-c064-4dbb-b783-026855ea38b2",
+            "Value": {
+                "id": "9ca0f6b5-af18-403a-9045-fa498b69efc7",
+                "resourcePath": "objects\/obj_sewage_wall_corner_left\/obj_sewage_wall_corner_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a1f6243-ada5-4198-ad29-85a9c187c4d0",
             "Value": {
                 "id": "3d61c551-872a-4f10-82e3-b04c4af9fd9a",
@@ -268,6 +276,14 @@
                 "id": "e2f3586f-dffa-4a01-8008-9cf1ba6627d1",
                 "resourcePath": "sprites\/spr_stove\/spr_stove.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "750216f7-972f-4474-8ccd-c1dd11ef10d0",
+            "Value": {
+                "id": "5a9d2ac6-7aca-4c63-82ff-6b82c2dd89ba",
+                "resourcePath": "objects\/obj_sewage_wall_corner_right\/obj_sewage_wall_corner_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
