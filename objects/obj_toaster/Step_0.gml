@@ -7,7 +7,8 @@ if (place_meeting(x, y , obj_player)) {
 	obj_player.visible = false;
 	obj_camera.follow = obj_butter_toast;
 	obj_player.x = -32;
-	obj_player.y = -32
+	obj_player.y = -32;
+	obj_player.momentum = 0;
 	obj_butter_toast.verticalSpeed = 7;
 }
 

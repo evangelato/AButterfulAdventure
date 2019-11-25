@@ -6,5 +6,6 @@ if (!hasCollidedWithFork) {
 	obj_player.y = obj_fork.y + 64;
 	obj_player.visible = true;
 	obj_player.disabled = false;
+	obj_camera.follow = obj_player;
 	hasCollidedWithFork = true;
 }

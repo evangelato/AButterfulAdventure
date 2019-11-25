@@ -5,16 +5,6 @@
     "name": "obj_warp",
     "eventList": [
         {
-            "id": "f945f862-22e7-4d24-8036-4e4690068045",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "d56efa83-be97-491a-9aad-421fa5d22b4b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "85c7e552-605f-4b7a-bf9c-ff5c1b692153"
-        },
-        {
             "id": "4095e48f-d28a-406f-93cf-610310635185",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -54,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "65678454-ee6f-4a8a-9b79-255b088dce2c",
-    "visible": true
+    "visible": false
 }
