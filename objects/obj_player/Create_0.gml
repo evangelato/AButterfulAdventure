@@ -4,9 +4,10 @@ horizontalSpeed = 0;
 verticalSpeed = 0;
 grav = 0.3;
 walkSpeed = 3;
-disabled = false;
+hasControl = true;
 health = 100;
 momentum = 0;
+maxMomentum = 10;
 fric = 1;
 
 

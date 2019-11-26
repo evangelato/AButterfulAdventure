@@ -5,13 +5,13 @@
     "name": "obj_toaster",
     "eventList": [
         {
-            "id": "33998fab-4358-469f-82bd-e0e474dca572",
+            "id": "bf625792-a6f0-4937-b300-c3357cb92889",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "d56efa83-be97-491a-9aad-421fa5d22b4b",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 4,
             "m_owner": "06b5666a-a78d-4df2-80b5-49e361edfc8a"
         }
     ],

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3b4d1709-6ecb-4ba1-be28-b41c104a5989",
+            "Value": {
+                "id": "cb48f382-7341-4304-a30b-a0559f0d188b",
+                "resourcePath": "objects\/obj_transition\/obj_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d8b814e-577c-4a35-b223-1784e2953880",
             "Value": {
                 "id": "8e9194d6-57cb-489c-8b79-ccf62342d6ac",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "7d6ed9fd-2ec2-4900-a89d-f12caac7d579",
+            "Value": {
+                "id": "393c106b-4533-444c-bd58-363cc3390ef0",
+                "resourcePath": "sprites\/sprite_warp\/sprite_warp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e393aea-64e9-4389-8359-7ebb2c0d9ac7",
             "Value": {
                 "id": "7d383dbc-21ca-43a5-97ac-d15341f9c582",
@@ -356,6 +372,14 @@
                 "id": "896f152c-6bbd-4f16-b9be-fe3e69aaeeda",
                 "resourcePath": "objects\/obj_camera\/obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6706d09-5ff5-40cb-afa3-270207b6bbbe",
+            "Value": {
+                "id": "92ea6973-5b20-441b-a4cd-d7af494d46b8",
+                "resourcePath": "scripts\/SlideTransition\/SlideTransition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -444,6 +468,14 @@
                 "id": "030c9a1a-fcce-40f8-84eb-fa324ec5b696",
                 "resourcePath": "sprites\/spr_sewer_wall_tl\/spr_sewer_wall_tl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c321ee2a-81c2-4c50-9207-31c1d9d5a1a1",
+            "Value": {
+                "id": "4b11cbb1-4162-4857-8144-f771df6e28d8",
+                "resourcePath": "views\/c321ee2a-81c2-4c50-9207-31c1d9d5a1a1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -576,7 +608,7 @@
         }
     ],
     "script_order": [
-        
+        "a6706d09-5ff5-40cb-afa3-270207b6bbbe"
     ],
     "tutorial": ""
 }

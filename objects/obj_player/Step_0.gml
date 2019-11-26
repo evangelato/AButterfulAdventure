@@ -7,7 +7,7 @@ key_dash = keyboard_check(vk_shift);
 oldhealth = health;
 
 
-if (!disabled) {
+if (hasControl) {
 	// Calculate Movement
 	if (key_dash) {
 		health -= 0.1;
@@ -95,7 +95,7 @@ if (oldhealth != health) {
 if (health <= 0) {
 	health = 100;
 	sprite_index = spr_player_100;
-	x = global.room_start_x;
-	y = global.room_start_y;
+	x = room_start_x;
+	y = room_start_y;
 	room_restart();
 }
