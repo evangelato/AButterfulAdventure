@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "6b592d57-1b2a-4f05-aa0e-6ba8e93cdb7c",
+            "Value": {
+                "id": "a0e844b7-3bfd-4790-b0b0-7fe59ea0079f",
+                "resourcePath": "sprites\/sewer_background\/sewer_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6bad31e6-3552-473c-8fa0-e88ba7a0093e",
             "Value": {
                 "id": "ae9d540f-520d-468f-9a4c-a596b55747ce",
