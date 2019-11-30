@@ -19,4 +19,5 @@ y = clamp(y, view_h_half, room_height - view_h_half);
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
 
-layer_x(backgroundLayer, x/2);
+layer_x(backgroundLayer1, x/2);
+layer_x(backgroundLayer2, x/2);

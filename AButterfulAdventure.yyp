@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0110ac87-86f8-4cc9-95bc-2e2a42006edf",
+            "Value": {
+                "id": "74f51760-b6da-40c4-994a-ab6ff4044997",
+                "resourcePath": "objects\/obj_sewer_hole\/obj_sewer_hole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06b5666a-a78d-4df2-80b5-49e361edfc8a",
             "Value": {
                 "id": "551831d6-bba5-4aca-ba1b-7943bde693ae",
@@ -420,6 +428,14 @@
                 "id": "58dac1cb-a144-470d-8ac6-8cd75a1322da",
                 "resourcePath": "views\/ab90485d-1999-4258-8b56-f14608e34c64.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad8c8b58-7ff0-42f8-b983-d5488d7ad2b4",
+            "Value": {
+                "id": "b97aca58-bde5-4216-9395-c3e01ce57ffb",
+                "resourcePath": "sprites\/spr_sewer_hole\/spr_sewer_hole.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
