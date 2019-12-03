@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "672bf45b-ed07-4e02-bf28-a7d06a9c51e0",
+            "Value": {
+                "id": "39cf4a60-2494-47eb-b454-81bc8f3238b4",
+                "resourcePath": "sprites\/spr_sewer_hole_water\/spr_sewer_hole_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "686bad2d-0abc-4438-ad0f-eb66cd058089",
             "Value": {
                 "id": "7e962a22-0d81-4fe9-aa50-e0e19d9e7b33",
