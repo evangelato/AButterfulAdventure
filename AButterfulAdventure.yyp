@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2e9eba70-cb28-4afc-a7ab-e88422be30e9",
+            "Value": {
+                "id": "ea5b0d4e-51c5-41ef-a2cc-e7c58351a993",
+                "resourcePath": "scripts\/ChangePlayerSprite\/ChangePlayerSprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fdcc205-054a-48cc-837d-55567af24ffa",
             "Value": {
                 "id": "791daa8e-d786-4c90-af5b-a2c48540a5d3",
@@ -640,7 +648,8 @@
         }
     ],
     "script_order": [
-        "a6706d09-5ff5-40cb-afa3-270207b6bbbe"
+        "a6706d09-5ff5-40cb-afa3-270207b6bbbe",
+        "2e9eba70-cb28-4afc-a7ab-e88422be30e9"
     ],
     "tutorial": ""
 }

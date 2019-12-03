@@ -72,23 +72,7 @@ if (hasControl) {
 
 // Animation
 if (oldhealth != health) {
-	if (health <= 100 && health > 90 && sprite_index != spr_player_100) {
-		sprite_index = spr_player_100;
-	} else if (health <= 90 && health > 75 && sprite_index != spr_player_90) {
-		sprite_index = spr_player_90;
-	} else if (health <= 75 && health > 60 && sprite_index != spr_player_75) {
-		sprite_index = spr_player_75;
-	} else if (health <= 60 && health > 50 && sprite_index != spr_player_60) {
-		sprite_index = spr_player_60;
-	} else if (health <= 50 && health > 35 && sprite_index != spr_player_50) {
-		sprite_index = spr_player_50;
-	} else if (health <= 35 && health > 15 && sprite_index != spr_player_35) {
-		sprite_index = spr_player_35;
-	} else if (health <= 15 && health > 5 && sprite_index != spr_player_15) {
-		sprite_index = spr_player_15;
-	} else if (health <= 5 && sprite_index != spr_player_5) {
-		sprite_index = spr_player_5;
-	}
+	ChangePlayerSprite();
 }
 
 // Respawn when dead
