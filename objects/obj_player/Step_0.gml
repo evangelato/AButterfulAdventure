@@ -79,7 +79,7 @@ if (oldhealth != health) {
 if (health <= 0) {
 	health = 100;
 	sprite_index = spr_player_1;
-	x = room_start_x;
-	y = room_start_y;
+	x = global.room_start_x;
+	y = global.room_start_y;
 	room_restart();
 }
