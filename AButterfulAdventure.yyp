@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0110ac87-86f8-4cc9-95bc-2e2a42006edf",
-            "Value": {
-                "id": "74f51760-b6da-40c4-994a-ab6ff4044997",
-                "resourcePath": "objects\/obj_sewer_hole\/obj_sewer_hole.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "06b5666a-a78d-4df2-80b5-49e361edfc8a",
             "Value": {
                 "id": "551831d6-bba5-4aca-ba1b-7943bde693ae",
@@ -143,6 +135,14 @@
             }
         },
         {
+            "Key": "44a394bb-42ab-4113-a497-c3a779b5d1be",
+            "Value": {
+                "id": "b0967a79-f125-47b6-b7d9-f09c6201180e",
+                "resourcePath": "sprites\/spr_butter_wall\/spr_butter_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "460188b7-8ee1-43a8-8d2c-afc60d476ee8",
             "Value": {
                 "id": "2e9eefa5-850f-48bb-96fa-e09dd21a2a02",
@@ -175,18 +175,10 @@
             }
         },
         {
-            "Key": "5365ff3f-0128-4043-8c93-54c9c14daa69",
-            "Value": {
-                "id": "773b3851-e2a8-4d9d-afd4-d8d289a5e92b",
-                "resourcePath": "objects\/obj_wall\/obj_wall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5952887c-1c7e-4629-b565-8080a83fec30",
             "Value": {
                 "id": "27621705-e354-451f-af77-a6d0cd717e3f",
-                "resourcePath": "objects\/obj_floor\/obj_floor.yy",
+                "resourcePath": "objects\/obj_wall\/obj_wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -451,6 +443,14 @@
             "Value": {
                 "id": "8b9ccdee-660a-439e-a48d-9f9ff22b65ea",
                 "resourcePath": "views\/c4846b2c-43cf-4080-9580-139701667559.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8f078ff-bbdc-45b3-82f0-cc5a2307a419",
+            "Value": {
+                "id": "ff1d155a-f931-4e73-862c-90c26d9511f6",
+                "resourcePath": "views\/c8f078ff-bbdc-45b3-82f0-cc5a2307a419.yy",
                 "resourceType": "GMFolder"
             }
         },

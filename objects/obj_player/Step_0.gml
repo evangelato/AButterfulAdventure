@@ -17,9 +17,9 @@ if (hasControl) {
 	
 	horizontalSpeed =  (move * walkSpeed) + momentum;
 	
-	if (place_meeting(x, y + 1, obj_floor)) {
-		var collidedFloor = instance_place(x, y + 1, obj_floor);
-		if (collidedFloor.hasButter) {
+	if (place_meeting(x, y + 1, obj_wall)) {
+		var collidedFloor = instance_place(x, y + 1, obj_wall);
+		if (collidedFloor.hasButterTop) {
 			fric = 0;
 		} else {
 			fric = 4;
