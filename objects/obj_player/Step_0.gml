@@ -81,5 +81,5 @@ if (health <= 0) {
 	sprite_index = spr_player_1;
 	x = global.room_start_x;
 	y = global.room_start_y;
-	SlideTransition(TRANS_MODE.RESTART);
+	SlideTransition(TRANS_MODE.ROOM_RESTART);
 }

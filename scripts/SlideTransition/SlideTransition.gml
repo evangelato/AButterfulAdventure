@@ -1,5 +1,5 @@
 /// @function SlideTransition(mode, targetRoom)
-/// @param mode sets transition mode between next, restart and goto.
+/// @param mode sets transition mode between next, room restart, game restart and goto.
 /// @param targetRoom sets target room when using the goto mode.
 
 with (obj_transition) {

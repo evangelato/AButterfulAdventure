@@ -19,8 +19,12 @@ if (mode != TRANS_MODE.OFF) {
 				mode = TRANS_MODE.INTRO;
 				room_goto(target);
 				break;
-			case TRANS_MODE.RESTART:
+			case TRANS_MODE.GAME_RESTART:
 				game_restart();
+				break;
+			case TRANS_MODE.ROOM_RESTART:
+				room_restart();
+				mode = TRANS_MODE.INTRO;
 				break;
 			default: 
 				break;
