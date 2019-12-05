@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0a69cdca-fbee-4535-ae20-824f3b746a03",
+            "Value": {
+                "id": "a967ddc1-f9b5-4541-bf34-4bef4c65a26b",
+                "resourcePath": "scripts\/RoomResetPlayer\/RoomResetPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0b3a4540-4ba0-42a0-994a-68841aaf7ee1",
             "Value": {
                 "id": "40eb64f5-999c-4cfd-8cb9-f31a39526a05",
@@ -577,7 +585,8 @@
     ],
     "script_order": [
         "a6706d09-5ff5-40cb-afa3-270207b6bbbe",
-        "2e9eba70-cb28-4afc-a7ab-e88422be30e9"
+        "2e9eba70-cb28-4afc-a7ab-e88422be30e9",
+        "0a69cdca-fbee-4535-ae20-824f3b746a03"
     ],
     "tutorial": ""
 }

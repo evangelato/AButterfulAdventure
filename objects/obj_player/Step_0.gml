@@ -77,9 +77,5 @@ if (oldhealth != health) {
 
 // Respawn when dead
 if (health <= 0) {
-	health = 100;
-	sprite_index = spr_player_1;
-	x = global.room_start_x;
-	y = global.room_start_y;
-	SlideTransition(TRANS_MODE.ROOM_RESTART);
+	RoomResetPlayer(global.room_start_x, global.room_start_y);
 }
