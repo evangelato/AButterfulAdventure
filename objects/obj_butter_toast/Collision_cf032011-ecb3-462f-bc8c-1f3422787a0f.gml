@@ -3,6 +3,8 @@
 if (!hasCollidedWithFork) {
 	hasCollidedWithFork = true;
 	verticalSpeed = 0;
+	health = 100;
+	ChangePlayerSprite();
 	with(obj_player) {
 		x = obj_fork.x - 16;
 		y = obj_fork.y + 64;
