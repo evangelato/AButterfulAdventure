@@ -7,7 +7,7 @@ walkSpeed = 3;
 hasControl = true;
 health = 100;
 momentum = 0;
-maxMomentum = 10;
+maxMomentum = 3;
 fric = 1;
 
 

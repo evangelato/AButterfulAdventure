@@ -21,19 +21,21 @@ if (hasControl) {
 		var collidedFloor = instance_place(x, y + 1, obj_wall);
 		if (collidedFloor.hasButterTop) {
 			fric = 0;
+			maxMomentum = 10;
 		} else {
 			fric = 4;
+			maxMomentum = 3;
 		}
 	}
 
 	if (move > 0) {
 		momentum += 0.5;
-		momentum = clamp (momentum,0,10);
+		momentum = clamp (momentum,0,maxMomentum);
 	}
 
 	else if (move < 0) {
 		momentum -= 0.5;
-		momentum = clamp (momentum,-10,0);
+		momentum = clamp (momentum,-maxMomentum,0);
 	}
 	
 	if (sign(horizontalSpeed)) && (move = 0) {
