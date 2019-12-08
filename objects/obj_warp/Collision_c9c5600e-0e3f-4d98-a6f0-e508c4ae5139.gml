@@ -6,6 +6,11 @@ with(obj_butter_toast) {
 	y = other.targetY;
 }
 
+with(obj_camera) {
+	x = other.targetX;
+	y = other.targetY;
+}
+
 with(obj_player) {
 	x = 0;
 	y = 0;

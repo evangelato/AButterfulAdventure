@@ -4,8 +4,8 @@ sprite_index = spr_toaster_up;
 with (obj_player) {
 	hasControl = false;
 	visible = false;
-	x = -32;
-	y = -32;
+	x = 0;
+	y = 0;
 	momentum = 0;
 }
 
