@@ -1,7 +1,7 @@
 /// @description Move to next room
 // SlideTransition(TRANS_MODE.NEXT);
 room_goto_next();
-with(obj_butter_toast) {
+with(obj_butterToast) {
 	x = other.targetX;
 	y = other.targetY;
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-sprite_index = spr_toaster_up;
+sprite_index = spr_toasterUp;
 with (obj_player) {
 	hasControl = false;
 	visible = false;
@@ -10,9 +10,9 @@ with (obj_player) {
 }
 
 with (obj_camera) {
-	follow = obj_butter_toast;
+	follow = obj_butterToast;
 }
 
-with (obj_butter_toast) {
+with (obj_butterToast) {
 	verticalSpeed = 7;
 }
