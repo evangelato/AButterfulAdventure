@@ -82,7 +82,7 @@
             "Key": "22909184-cc9d-42ee-b4f9-e7a09e4d293d",
             "Value": {
                 "id": "aa266714-a3c3-4227-94bc-872acf94617c",
-                "resourcePath": "tilesets\/tl_sewerTiles\/tl_sewerTiles.yy",
+                "resourcePath": "tilesets\/tile_sewerTiles\/tile_sewerTiles.yy",
                 "resourceType": "GMTileSet"
             }
         },
