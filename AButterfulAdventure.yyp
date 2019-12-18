@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "14f2f96c-61e9-40aa-8a20-ebfd20e9ceac",
+            "Value": {
+                "id": "bc7783a2-c369-4125-93c6-17b21e624598",
+                "resourcePath": "fonts\/font_health\/font_health.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "22909184-cc9d-42ee-b4f9-e7a09e4d293d",
             "Value": {
                 "id": "aa266714-a3c3-4227-94bc-872acf94617c",
