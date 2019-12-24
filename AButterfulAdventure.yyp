@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "9a615b55-a2df-4daa-9c51-4ee66ae01ec3",
+            "Value": {
+                "id": "61b49eb6-2edb-4b12-86d1-4c607fc55441",
+                "resourcePath": "sprites\/spr_sewerHoleBackground\/spr_sewerHoleBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d894b4c-39df-427d-922d-ff31a0d0c500",
             "Value": {
                 "id": "c6093b8a-2732-4834-9d20-06ca6df2494d",

@@ -4,7 +4,7 @@ global.camera_start_x = 1952;
 global.camera_start_y = 768;
 
 with(obj_butterToast) {
-	x = 1952;
+	x = 1936;
 	y = 768;
 }
 
