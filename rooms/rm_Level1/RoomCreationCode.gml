@@ -1,4 +1,9 @@
-global.room_start_x = 96;
-global.room_start_y = 704;
-global.camera_start_x = 96;
-global.camera_start_y = 704;
+with(obj_player) {
+	x = 96;
+	y = 704;
+}
+
+with(obj_camera) {
+	x = 96;
+	y = 704;
+}

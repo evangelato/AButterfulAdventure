@@ -79,5 +79,5 @@ if (oldhealth != health) {
 
 // Respawn when dead
 if (health <= 0) {
-	RoomResetPlayer(global.room_start_x, global.room_start_y);
+	RoomResetPlayer();
 }
