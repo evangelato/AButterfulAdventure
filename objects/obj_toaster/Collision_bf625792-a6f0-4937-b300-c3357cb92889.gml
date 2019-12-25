@@ -10,7 +10,7 @@ with (obj_player) {
 }
 
 with (obj_camera) {
-	follow = obj_butterToast;
+	follow = obj_butterToast.id;
 }
 
 with (obj_butterToast) {
