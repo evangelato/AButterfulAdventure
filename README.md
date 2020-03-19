@@ -8,7 +8,7 @@ At the moment there are only three levels completed but more is on the way.
 
 Mac and Windows version available on itch.io: https://evangelato.itch.io/a-butterful-adventure-demo
 
-![ScreenShot](/images/screenshot.png?raw=true "Screen Shot")
+![alt text](https://i.imgur.com/hisLR95.png)
 
 ## Controls
 
@@ -35,7 +35,7 @@ After installing GameMaker Studio 2, you can clone the repository with
 git clone https://github.com/evangelato/AButterfulAdventure.git
 ```
 
-Open the cloned project in Unity.
+Open the cloned project in GameMaker Studio 2.
 
 
 ## Build
